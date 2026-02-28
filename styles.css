@@ -1,6 +1,17 @@
-*{
-    margin: 0;
+*{ /*est es para toda la pagina*/
+    margin: 0; /*elimina los margenes externos*/
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 15px; /*tamaño del texto*/
+    line-height: 1.8; /*este es el espacio entre lineas*/
+    color: #444; /*color del texto*/
+    background-color: #f9f7f3;
+}
+
+
+
 
