@@ -12,6 +12,18 @@ body {
     background-color: #f9f7f3;
 }
 
+h1, h2, h3, .logo {
+    font-family: 'Merriweathe', serif;
+    font-weight: 700;
+    color: #2a2a2a;
+}
+
+a {
+    text-decoration: none; /*para eliminar el subrayado azul*/
+    color: #8B4513;
+}
+
+
 
 
 
