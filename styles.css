@@ -47,6 +47,7 @@ a {
 .logo img {
     width: 120px;
     height: auto;
+    font-size: 2.5rem;
 }
 
 .encabezado ul { 
@@ -62,6 +63,10 @@ a {
 .site-header .container { /*para centrar en la página*/
     display: flex;
     justify-content: center;
+}
+
+.main-nav a {
+    font-weight: 700;
 }
 
 
