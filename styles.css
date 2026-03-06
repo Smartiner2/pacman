@@ -13,7 +13,7 @@ body {
 }
 
 h1, h2, h3, .logo {
-    font-family: 'Merriweathe', serif;
+    font-family: 'Cascadia+Mono', serif;
     font-weight: 700;
     color: #000000;
 }
@@ -33,7 +33,7 @@ a {
 }
 
 .site-header .container .encabezado {
-    display: flex; /*activa flexbox, que sirve como para ordenar elementos en una línea o una 87 columna.*/
+    display: flex; /*activa flexbox, que sirve como para ordenar elementos en una línea o una columna.*/
     flex-direction: row; /*Este es para organizar los elementos horixontalmente*/
     justify-content: space-between; /*Para distribuir los elementos dejando espacio entre ellos*/
     align-items: center; /*Alinea los elementos verticalmente al centro.*/
@@ -132,9 +132,9 @@ h2 {
 }
 
 .menu-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /*crea 3 columnas, y divide el espacio en 3 partes*/
-    gap: 30px;
+    display: grid; /*activa el istem de rejilla (Grid)*/
+    grid-template-columns: repeat(3, 1fr); /*crea 3 columnas iguales, y divide el espacio en 3 partes*/
+     gap: 30px; /*separa las 3 columnas entre si*/
     text-align: left;
     margin-top: 40px;
 }
