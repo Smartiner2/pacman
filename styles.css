@@ -33,10 +33,10 @@ a {
 }
 
 .site-header .container .encabezado {
-    display: flex; /*activa flexbox*/
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /*activa flexbox, que sirve como para ordenar elementos en una línea o una 87 columna.*/
+    flex-direction: row; /*Este es para organizar los elementos horixontalmente*/
+    justify-content: space-between; /*Para distribuir los elementos dejando espacio entre ellos*/
+    align-items: center; /*Alinea los elementos verticalmente al centro.*/
 }
 .site-header .container { 
     display: flex;
@@ -64,11 +64,11 @@ a {
 }
 
 .encabezado ul { 
-    display: flex;
+    display: flex; /* esta es para poner los elementos del menú en fila */
     align-items: center;
-    justify-content: center;
+    justify-content: center; /*este centra el menú*/
     list-style: none;
-    gap: 30px;
+    gap: 30px; /*separa los botones del menú*/
     padding: 0;
     margin: 0;
 }
